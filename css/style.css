@@ -1,0 +1,278 @@
+body{
+	background-color: #EDEEF0;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 25px;
+	color: #000000;
+	/* background-image: url(right.jpg); */
+}
+
+table{
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 25px;
+	color: #000000;
+	font-weight:bold;
+}
+
+.wrapper {
+	width: 80%;
+	margin: auto;
+}
+
+#block-for-slider {
+	width: 80%;
+	margin: 0 auto;
+}
+
+#viewport {
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	text-align: center;
+}
+
+#slidewrapper {
+	position: relative;
+	width: calc(100% * 8);
+	-webkit-transition: 1s;
+	-o-transition: 1s;
+	transition: 1s;
+	-webkit-transition-timing-function: cubic-bezier(.67,.01,.23,1);
+	-o-transition-timing-function: cubic-bezier(.67,.01,.23,1);
+	transition-timing-function: cubic-bezier(.67,.01,.23,1);
+}
+
+#slidewrapper, #slidewrapper ul, #slidewrapper li {
+	margin: 0;
+	padding: 0;
+}
+
+.slide {
+	width: calc(100%/8);
+	list-style: none;
+	display: inline;
+	float: left;
+}
+
+.slide-img {
+	width: 100%;
+}
+
+#prev-btn, #next-btn {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #fff;
+	border-radius: 50%;
+	top: calc(50% - 25px);
+}
+
+#prev-btn:hover, #next-btn:hover {
+	cursor: pointer;
+}
+
+#prev-btn {
+	left: 20px;
+}
+
+#next-btn {
+	right: 20px;
+}
+
+#nav-btns {
+	position: absolute;
+	width: 100%;
+	bottom: 20px;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+.slide-nav-btn {
+	position: relative;
+	display: inline-block;
+	list-style: none;
+	width: 20px;
+	height: 20px;
+	background-color: silver;
+	border-radius: 50%;
+	margin: 3px;
+
+}
+
+.slide-nav-btn:hover {
+	cursor: pointer;
+}
+
+.onwork{
+	height: 100%;
+	width: 100%;
+	background-color: white;
+	font-size: 25px;
+	
+}
+
+.float{
+	border: 4px;
+	border-color: #FF4132;
+}
+
+img{
+	margin-top: 20px;
+	margin-bottom:  20px;
+}
+
+#cental-block{
+	position: relative;
+	width: 800px;
+	height: auto;
+	border: 0;
+	margin: auto;
+	margin-top: 100px;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 30px;
+	color: #000000;
+	text-align: center;
+	font-weight: bold;
+	
+}
+
+#cental-block.p{
+	margin: 0;
+}
+
+
+/* ------ general
+-----------------------------------------------*/
+
+body {
+	font-family:'Courier New', Courier, monospace;
+	background:#eaeaea;
+	/* background-image: url(right.jpg); */
+	}
+	
+	/* ------ mobilyslider
+	-----------------------------------------------*/
+	
+	#content {
+	width:800px;
+	margin:20px auto 20px;
+	}
+	
+	.slider {
+	float:left;
+	width:100%;
+	height:400px;
+	position: relative;
+	padding-bottom:26px;
+	background:url(../gfx/bottom_shadow.png) no-repeat bottom center;
+	}
+	
+	.sliderContent {
+	float:left;
+	width:100%;
+	height: 100%;
+	clear:both;
+	
+	overflow:hidden;
+	}
+	
+	.sliderArrows a {
+	display:block;
+	text-indent:-9999px;
+	outline:none;
+	z-index:50;
+	background-image:url(../gfx/prev_next.png);
+	width:42px;
+	height:42px;
+	position:absolute;
+	top:50%;
+	margin-top:-34px;
+	}
+	
+	.prev {
+	background-position:0 0;
+	left:15px;
+	}
+	
+	.prev:hover {
+	background-position:0 -44px;
+	}
+	
+	.next {
+	right:15px;
+	background-position:-44px 0;
+	}
+	
+	.next:hover {
+	background-position:-44px -44px;
+	}
+	
+	.sliderContent .item {
+	position: relative;
+	widows: 400px;
+	width: 100%;
+	height:450px;
+	background-color: #eceaea;
+	}
+	
+	.sliderBullets {
+	position:absolute;
+	bottom:0;
+	left:50%;
+	z-index:50;
+	margin-left:-45px;
+	}
+	
+	.sliderBullets a {
+	display:block;
+	float:left;
+	text-indent:-9999px;
+	outline:none;
+	margin-left:5px;
+	width:10px;
+	height:11px;
+	background:url(../gfx/bullets.png) no-repeat;
+	}
+	
+	.sliderBullets .active {
+	background-position:0 -11px;
+	}
+	
+	.sliderContent a {
+	outline:none;
+	}
+	
+	a {
+	color:black;
+	}
+
+	a:hover {
+		color: #df3b30;
+		font-style: bold;
+		text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 1em red;
+	}
+	
+	a img {
+	border:none;
+	}
+
+	p {
+		text-indent: 1.5em;
+	}
+	button{
+		height:10%;
+		width: 100%;
+		font-size: 40px;
+		font-style: bold;
+		font-family: 'Courier New', Courier, monospace;
+		background-color: #525252;
+	}
+	button:hover {
+		color: #df3b30;
+		text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 1em red;
+	  }

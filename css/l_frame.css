@@ -1,0 +1,36 @@
+	body{
+		background-color: rgb(143, 0, 0);
+		font-family: 'Courier New', Courier, monospace;
+		color: white;
+		/* background-image: url(left.jpg); */
+	}
+
+	h1{
+		font-style: italic;
+	}
+
+	a{
+		color: black;
+	}
+
+	.main-menu{
+		text-align: left;
+		padding: 20px;
+		font-size: 20px;
+	}
+
+	.main-menu a{
+		color: white;
+		margin-bottom: 10px;
+	}
+
+	.main-menu-center{
+		width: auto;
+		margin: 0 auto;
+	}
+	
+	a:hover {
+		color: #ffa600;
+		font-style: bold;
+		text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 1em #ffa600;
+	}
